@@ -271,24 +271,35 @@
                 </div>
                 <div class="cont">
                     <div>
-<pre><code>font-family: 'IropkeBatang';</code></pre>
+<pre><code>font-family: 'Eulyoo1945';</code></pre>
                     </div>
                     <div>
-<pre><code>&lt;link href="https://webfontworld.github.io/iropke/IropkeBatang.css" rel="stylesheet"&gt;</code></pre>
+<pre><code>&lt;link href="https://webfontworld.github.io/eulyoo/Eulyoo1945.css" rel="stylesheet"&gt;</code></pre>
                     </div>
                     <div>
-<pre><code>@import url('https://webfontworld.github.io/iropke/IropkeBatang.css');</code></pre>
+<pre><code>@import url('https://webfontworld.github.io/eulyoo/Eulyoo1945.css');</code></pre>
                     </div>
                     <div>
 <pre><code>@font-face {
-    font-family: 'IropkeBatang';
-    font-weight: normal;
+    font-family: 'Eulyoo1945';
+    font-weight: 400;
     font-style: normal;
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/iropke/IropkeBatang.eot');
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/iropke/IropkeBatang.eot?#iefix') format('embedded-opentype'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/iropke/IropkeBatang.woff2') format('woff2'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/iropke/IropkeBatang.woff') format('woff'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/iropke/IropkeBatang.ttf') format("truetype");
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/eulyoo/Eulyoo1945Regular.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/eulyoo/Eulyoo1945Regular.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/eulyoo/Eulyoo1945Regular.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/eulyoo/Eulyoo1945Regular.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/eulyoo/Eulyoo1945Regular.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Eulyoo1945';
+    font-weight: 600;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/eulyoo/Eulyoo1945SemiBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/eulyoo/Eulyoo1945SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/eulyoo/Eulyoo1945SemiBold.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/eulyoo/Eulyoo1945SemiBold.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/eulyoo/Eulyoo1945SemiBold.ttf') format("truetype");
     font-display: swap;
 }
 </code></pre>
@@ -298,7 +309,7 @@
         </div>
 
         <div class="wf-view ff">
-            <h3 class="fw">폰트 살펴보기 <span class="active">normal</span></h3>
+            <h3 class="fw">폰트 살펴보기 <span class="active">400</span><span>600</span></h3>
             <div class="style">
                 <span class="style1" data-bg1="#f8f8f8" data-bg2="#000"></span>
                 <span class="style2" data-bg1="#000" data-bg2="#fff"></span>
@@ -316,8 +327,8 @@
             </div>
             <div class="view">
                 <div>
-                    <strong>훈민정음</strong>
-                    <em>HunMinJeongEum</em>
+                    <strong>을유1945</strong>
+                    <em>Eulyoo1945</em>
                 </div>
             </div>
         </div>
@@ -328,13 +339,14 @@
             <h3>font-weight</h3>
             <input type="text" id="wf-weight-input" class="weightInput" placeholder="글씨를 입력하면 변경됩니다!">
             <ul class="wf-weight-preview">
-                <li class="wNormal" title="normal">이 폰트의 WEIGHT는 여러가지가 있습니다. 이 폰트의 weight는 여러가지가 있습니다. 이 폰트의 두께는 여러가지가 있습니다.</li>
+                <li class="w400" title="400">이 폰트의 WEIGHT는 여러가지가 있습니다. 이 폰트의 weight는 여러가지가 있습니다. 이 폰트의 두께는 여러가지가 있습니다.</li>
+                <li class="w600" title="600">이 폰트의 WEIGHT는 여러가지가 있습니다. 이 폰트의 weight는 여러가지가 있습니다. 이 폰트의 두께는 여러가지가 있습니다.</li>
             </ul>
         </div>
         <!-- //weight -->
 
         <div class="wf-size ff fw">
-            <h3>font-size <span class="active" data-weight="font-weight:normal">normal</span></h3>
+            <h3>font-size <span class="active" data-weight="font-weight:400">400</span><span data-weight="font-weight:600">600</span></h3>
             <input type="text" id="wf-size-input" class="weightInput" placeholder="글씨를 입력하면 변경됩니다!">
             <ul class="wf-size-preview">
                 <li class="s10">가 나 다 라 마 바 사 아 자 차 카 타 파 하 a b c d e f g h i j k l m n o p q r s t u v w x y z 0 1 2 3 4 5 6 7 8 9
@@ -374,7 +386,7 @@
         <!-- //size -->
 
         <div class="wf-layout ff fw">
-            <h3>Font-layout <span class="active">normal</span></h3>
+            <h3>Font-layout <span class="active">400</span><span>600</span></h3>
             <input type="text" id="wf-layout-input" class="weightInput" placeholder="글씨를 입력하면 변경됩니다!">
             <div class="flex">
                 <div class="col4">모든 국민은 인간으로서의 존엄과 가치를 가지며, 행복을 추구할 권리를 가진다. 국가는 개인이 가지는 불가침의 기본적 인권을 확인하고 이를 보장할 의무를 진다. 대한민국의 주권은
@@ -510,9 +522,10 @@
                 </table>
             </div>
             <ul class="list fw">
-                <li>이롭게 바탕체는 오픈 폰트 라이센스 정책을 가지고 있기 때문에 상업적 용도를 포함하여 누구나 자유롭게 사용할 수 있습니다.</li>
-                <li>이롭게 바탕체를 수정하여 유료로 재판매하는 것은 금지합니다.</li>
-                <li>저작자 표시, 동일조건 변경허락, 임베딩 가능, 2차저작 및 재명명 가능, 비영리 이용이 가능합니다.</li>
+                <li>을유1945는 서체 사용자의 섞어 짜기 편의를 위해 구글과 어도비가 제작하고 배포하는 오픈 라이선스(SIL OFL v.1.1) 서체 '본명조(Source Han Serif)'의 기본 한자 4,620자 및 가나 170자를 포함하고 있습니다.</li>
+                <li>본 서체는 인쇄물 제작, 웹페이지, 영상물, CI/BI, 이북/이러닝, UI 디자인 등에 무료 사용이 가능합니다.</li>
+                <li>임베이딩, 서버 및 디바이스 등을 이용한 수정, 변형, 복사, 대여, 임대, 재판매, 배포는 불가합니다.</li>
+                <li>책의 본문에 사용할 경우 표기 가능한 곳에  "이 책의 본문은 '을유1945' 서체를 사용했습니다."라는 문구를 넣어 주시기 바랍니다.</li>
                 <li class="line">제공되는 모든 서체의 지적 재산권을 포함한 모든 권리는 제작사에 있으니, 사용하기 전에 제작사 사이트에 가셔서 꼭 확인하시길 바랍니다.</li>
             </ul>
         </div>
